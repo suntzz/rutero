@@ -1,0 +1,10 @@
+node_modules/
+.env
+data/
+dist/
+
+# Local
+.DS_Store
+.claude/
+*.log
+dist-demo/

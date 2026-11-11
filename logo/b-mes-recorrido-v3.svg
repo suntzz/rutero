@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Rutero · Mes recorrido</title>
+  <path fill-rule="evenodd" fill="#000" d="M128 26h72a30 30 0 0 1 0 60h-42v42a30 30 0 0 1-30 30H86v42a30 30 0 0 1-60 0v-72a30 30 0 0 1 30-30h42V56a30 30 0 0 1 30-30ZM200 43a13 13 0 1 0 0.01 0Z"/>
+  <circle cx="56" cy="56" r="11" fill="#000"/>
+  <circle cx="200" cy="128" r="11" fill="#000"/>
+  <circle cx="128" cy="200" r="11" fill="#000"/>
+  <circle cx="200" cy="200" r="11" fill="#000"/>
+</svg>

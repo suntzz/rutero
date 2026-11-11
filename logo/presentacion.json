@@ -1,0 +1,34 @@
+{
+  "brand": "Rutero",
+  "tagline": "La ruta del mes, día por día",
+  "brief": "Herramienta interna con la que los LAS de Nutresa programan cada mes en qué tienda y en qué horario trabaja cada promotor. Debe sentirse clara, ordenada, confiable y cercana, y verse bien desde el celular en campo.",
+  "adjectives": ["clara", "ordenada", "confiable", "cercana"],
+  "criteria": "Éxito: propia (sin pin de mapa ni ícono de calendario genérico), reconocible a 16 px, funciona a una tinta y cuenta la idea de programar un mes como un recorrido.",
+  "mockups": ["app-icon", "website", "favicon-tab", "badge", "tshirt", "sticker"],
+  "nav": ["Programar", "Mi equipo", "Ayuda"],
+  "brand_color": "#0F6E5A",
+  "greyscale": false,
+  "final": true,
+  "designer": "Rutero",
+  "concepts": [
+    {
+      "name": "Mes recorrido",
+      "symbol": "final/rutero-simbolo.svg",
+      "lockup": "final/rutero-horizontal.svg",
+      "stacked": "final/rutero-apilado.svg",
+      "avatar": "final/rutero-app-icon.svg",
+      "symbol_on_tile": "final/rutero-simbolo-negativo.svg",
+      "symbol_on_dark": "final/rutero-simbolo-negativo.svg",
+      "lockup_on_dark": "final/rutero-horizontal-negativo.svg",
+      "stacked_on_dark": "final/rutero-apilado-negativo.svg",
+      "stacked_on_tile": "final/rutero-apilado-negativo.svg",
+      "idea": "Los días programados del mes se conectan en una ruta que termina en el punto de llegada; los días libres quedan como puntos.",
+      "rationale": [
+        "Cuenta lo que hace la app: programar un mes como un recorrido por días",
+        "Geometría simple de 3 × 3 días: se lee a 16 px y crece hacia íconos, patrones y animación",
+        "Dos colores: verde Rutero para la ruta y oro para la llegada"
+      ]
+    }
+  ],
+  "recommendation": "Mes recorrido: la marca más propia y la que mejor explica el producto, con un ícono fuerte para el celular."
+}

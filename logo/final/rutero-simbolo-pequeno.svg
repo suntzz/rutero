@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <title>Rutero</title>
+  <path fill-rule="evenodd" fill="#0F6E5A" d="M128 26h72a30 30 0 0 1 0 60h-42v42a30 30 0 0 1-30 30H86v42a30 30 0 0 1-60 0v-72a30 30 0 0 1 30-30h42V56a30 30 0 0 1 30-30ZM181 56a19 19 0 1 0 38 0a19 19 0 1 0 -38 0Z"/>
+  <circle cx="200" cy="56" r="19" fill="#F5B942"/>
+  <circle cx="56" cy="56" r="17" fill="#0F6E5A"/>
+  <circle cx="200" cy="128" r="17" fill="#0F6E5A"/>
+  <circle cx="128" cy="200" r="17" fill="#0F6E5A"/>
+  <circle cx="200" cy="200" r="17" fill="#0F6E5A"/>
+</svg>

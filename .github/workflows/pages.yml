@@ -1,0 +1,41 @@
+# Publica la DEMO de Rutero en GitHub Pages: el front con un servidor de mentiras en el navegador
+# y datos inventados. No usa el token de Nutresa ni ninguna base. La app real va en Railway.
+name: Demo en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npx vite build
+        env:
+          VITE_DEMO: '1'
+          VITE_BASE: /${{ github.event.repository.name }}/
+      - run: touch dist-demo/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist-demo
+      - id: despliegue
+        uses: actions/deploy-pages@v4

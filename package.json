@@ -1,0 +1,34 @@
+{
+  "name": "rutero",
+  "version": "1.0.0",
+  "description": "Rutero: programación del rutero de los LAS y descarga del 03 Rutero",
+  "main": "index.js",
+  "scripts": {
+    "test": "node scripts/prueba-reglas.js",
+    "start": "node server.js",
+    "cargar": "node scripts/cargar-formato.js",
+    "build": "vite build",
+    "dev": "vite",
+    "app": "vite build && node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@hugeicons/core-free-icons": "^4.3.3",
+    "@hugeicons/react": "^1.1.10",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.2",
+    "motion": "^12.23.12",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

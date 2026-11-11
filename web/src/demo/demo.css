@@ -1,0 +1,16 @@
+.demo-franja {
+  position: relative; z-index: 40; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px 12px;
+  padding: 8px 16px; background: var(--acento-suave); color: var(--tinta-2); border-bottom: 1px solid var(--borde); font-size: 13px;
+}
+.demo-franja b { color: var(--tinta); font-weight: 600; }
+.demo-franja code { font-family: ui-monospace, "SF Mono", Menlo, monospace; color: var(--tinta); }
+.demo-franja a { color: var(--acento); font-weight: 600; white-space: nowrap; }
+.demo-franja button {
+  flex: none; min-height: 32px; padding: 0 12px; border-radius: 8px; border: 1px solid var(--borde);
+  background: var(--fondo); color: var(--tinta); font: inherit; font-weight: 600; cursor: pointer;
+}
+.demo-toast {
+  position: fixed; left: 50%; top: 16px; transform: translateX(-50%); z-index: 60; max-width: calc(100vw - 32px);
+  padding: 10px 14px; border-radius: 12px; background: var(--tinta); color: var(--papel); font-size: 14px;
+  animation: visor-fondo 200ms var(--ease-out, ease-out);
+}

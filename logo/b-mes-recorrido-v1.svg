@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <mask id="ruta">
+      <rect width="256" height="256" fill="#fff"/>
+      <path d="M48 208C48 150 96 150 128 128S208 106 208 48" fill="none" stroke="#000" stroke-width="22" stroke-linecap="round"/>
+    </mask>
+  </defs>
+  <g mask="url(#ruta)" fill="#000">
+    <rect x="28" y="28" width="56" height="56" rx="14"/><rect x="100" y="28" width="56" height="56" rx="14"/><rect x="172" y="28" width="56" height="56" rx="14"/>
+    <rect x="28" y="100" width="56" height="56" rx="14"/><rect x="100" y="100" width="56" height="56" rx="14"/><rect x="172" y="100" width="56" height="56" rx="14"/>
+    <rect x="28" y="172" width="56" height="56" rx="14"/><rect x="100" y="172" width="56" height="56" rx="14"/><rect x="172" y="172" width="56" height="56" rx="14"/>
+  </g>
+</svg>
